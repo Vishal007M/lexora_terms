@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy – Pangolin Browser</title>
+    <title>Terms & Conditions – Lexora</title>
     <style>
         * {
             margin: 0;
@@ -12,27 +12,25 @@
         }
 
         :root {
-            --bg: #0D0D1A;
-            --surface: #13131F;
-            --surface2: #1A1A2E;
+            --bg: #0B0620;
+            --surface: #140F35;
+            --surface2: #1D1647;
             --border: rgba(255,255,255,0.08);
-            --text: #F0F0FF;
-            --text-secondary: rgba(240,240,255,0.65);
-            --text-tertiary: rgba(240,240,255,0.40);
-            --accent-blue: #4FA3E8;
-            --accent-cyan: #3DD6C8;
+            --text: #F8FAFC;
+            --text-secondary: rgba(248,250,252,0.70);
+            --text-tertiary: rgba(248,250,252,0.45);
             --accent-purple: #8B5CF6;
-            --accent-green: #34C759;
-            --accent-red: #FF453A;
-            --accent-yellow: #FFD60A;
-            --accent-orange: #FF9F0A;
+            --accent-pink: #EC4899;
+            --accent-cyan: #06B6D4;
+            --accent-green: #10B981;
+            --accent-yellow: #F59E0B;
+            --accent-blue: #3B82F6;
         }
 
         body {
             background: var(--bg);
             color: var(--text);
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                         Roboto, Oxygen, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
             font-size: 15px;
             line-height: 1.7;
             padding: 0;
@@ -41,8 +39,8 @@
 
         /* ── Hero Header ─────────────────────────────────────────────────── */
         .hero {
-            background: linear-gradient(135deg, #1A1A35 0%, #0D0D1A 100%);
-            padding: 48px 24px 36px;
+            background: linear-gradient(135deg, #1A1344 0%, #0B0620 100%);
+            padding: 52px 24px 40px;
             text-align: center;
             border-bottom: 1px solid var(--border);
             position: relative;
@@ -54,22 +52,20 @@
             position: absolute;
             top: -60px; left: 50%;
             transform: translateX(-50%);
-            width: 300px; height: 300px;
-            background: radial-gradient(circle,
-                rgba(79,163,232,0.15) 0%,
-                transparent 70%);
+            width: 320px; height: 320px;
+            background: radial-gradient(circle, rgba(139,92,246,0.18) 0%, transparent 70%);
             pointer-events: none;
         }
 
         .hero-icon {
-            font-size: 56px;
+            font-size: 54px;
             margin-bottom: 16px;
             display: block;
-            filter: drop-shadow(0 0 20px rgba(79,163,232,0.4));
+            filter: drop-shadow(0 0 24px rgba(139,92,246,0.45));
         }
 
         .hero h1 {
-            font-size: 26px;
+            font-size: 28px;
             font-weight: 700;
             color: var(--text);
             margin-bottom: 8px;
@@ -86,47 +82,45 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            background: rgba(79,163,232,0.12);
-            border: 1px solid rgba(79,163,232,0.25);
+            background: rgba(139,92,246,0.12);
+            border: 1px solid rgba(139,92,246,0.25);
             border-radius: 20px;
-            padding: 6px 14px;
+            padding: 6px 16px;
             font-size: 12px;
-            color: var(--accent-blue);
+            color: var(--accent-purple);
             font-weight: 500;
         }
 
         /* ── Content Container ───────────────────────────────────────────── */
         .container {
-            max-width: 680px;
+            max-width: 720px;
             margin: 0 auto;
-            padding: 28px 20px 60px;
+            padding: 32px 20px 60px;
         }
 
-        /* ── Last Updated Banner ─────────────────────────────────────────── */
         .last-updated {
-            background: rgba(61,214,200,0.08);
-            border: 1px solid rgba(61,214,200,0.18);
+            background: rgba(6,182,212,0.08);
+            border: 1px solid rgba(6,182,212,0.20);
             border-radius: 12px;
-            padding: 12px 16px;
+            padding: 12px 18px;
             margin-bottom: 28px;
             display: flex;
             align-items: center;
             gap: 10px;
-            font-size: 12.5px;
+            font-size: 13px;
             color: var(--accent-cyan);
         }
 
-        /* ── Section Cards ───────────────────────────────────────────────── */
         .section {
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: 18px;
-            margin-bottom: 16px;
+            border-radius: 20px;
+            margin-bottom: 18px;
             overflow: hidden;
         }
 
         .section-header {
-            padding: 18px 20px 14px;
+            padding: 18px 22px 14px;
             display: flex;
             align-items: center;
             gap: 12px;
@@ -134,7 +128,7 @@
         }
 
         .section-icon {
-            width: 36px; height: 36px;
+            width: 38px; height: 38px;
             border-radius: 10px;
             display: flex;
             align-items: center;
@@ -143,27 +137,26 @@
             flex-shrink: 0;
         }
 
-        .icon-blue   { background: rgba(79,163,232,0.15); }
-        .icon-green  { background: rgba(52,199,89,0.15);  }
         .icon-purple { background: rgba(139,92,246,0.15); }
-        .icon-cyan   { background: rgba(61,214,200,0.15); }
-        .icon-red    { background: rgba(255,69,58,0.15);  }
-        .icon-yellow { background: rgba(255,214,10,0.15); }
-        .icon-orange { background: rgba(255,159,10,0.15); }
+        .icon-blue   { background: rgba(59,130,246,0.15);  }
+        .icon-green  { background: rgba(16,185,129,0.15); }
+        .icon-cyan   { background: rgba(6,182,212,0.15);  }
+        .icon-pink   { background: rgba(236,72,153,0.15); }
+        .icon-yellow { background: rgba(245,158,11,0.15); }
 
         .section-title {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 600;
             color: var(--text);
         }
 
         .section-body {
-            padding: 16px 20px 20px;
+            padding: 18px 22px 22px;
         }
 
         .section-body p {
             color: var(--text-secondary);
-            font-size: 13.5px;
+            font-size: 14px;
             margin-bottom: 12px;
         }
 
@@ -171,7 +164,6 @@
             margin-bottom: 0;
         }
 
-        /* ── Bullet Lists ────────────────────────────────────────────────── */
         .check-list {
             list-style: none;
             padding: 0;
@@ -182,7 +174,7 @@
             display: flex;
             align-items: flex-start;
             gap: 10px;
-            padding: 7px 0;
+            padding: 8px 0;
             color: var(--text-secondary);
             font-size: 13.5px;
             border-bottom: 1px solid rgba(255,255,255,0.04);
@@ -200,391 +192,277 @@
             justify-content: center;
             font-size: 11px;
             flex-shrink: 0;
-            margin-top: 1px;
+            margin-top: 2px;
         }
 
-        .dot-green  { background: rgba(52,199,89,0.15);  color: #34C759; }
-        .dot-red    { background: rgba(255,69,58,0.15);  color: #FF453A; }
-        .dot-blue   { background: rgba(79,163,232,0.15); color: #4FA3E8; }
+        .dot-green { background: rgba(16,185,129,0.15); color: #10B981; }
+        .dot-purple { background: rgba(139,92,246,0.15); color: #8B5CF6; }
 
-        /* ── Highlight Box ───────────────────────────────────────────────── */
         .highlight-box {
             background: rgba(139,92,246,0.08);
             border: 1px solid rgba(139,92,246,0.20);
             border-radius: 12px;
-            padding: 14px 16px;
-            margin-top: 12px;
+            padding: 14px 18px;
+            margin-top: 14px;
         }
 
         .highlight-box p {
-            color: rgba(139,92,246,0.90) !important;
+            color: rgba(139,92,246,0.95) !important;
             font-size: 13px !important;
             margin: 0 !important;
         }
 
-        /* ── Info Row ────────────────────────────────────────────────────── */
-        .info-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 11px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .info-row:last-child { border-bottom: none; }
-
-        .info-label {
-            font-size: 13px;
-            color: var(--text-tertiary);
-        }
-
-        .info-value {
-            font-size: 13px;
-            color: var(--text-secondary);
-            font-weight: 500;
-            text-align: right;
-        }
-
-        /* ── Contact Card ────────────────────────────────────────────────── */
         .contact-card {
-            background: linear-gradient(135deg,
-                rgba(79,163,232,0.10) 0%,
-                rgba(61,214,200,0.06) 100%);
-            border: 1px solid rgba(79,163,232,0.20);
-            border-radius: 16px;
-            padding: 20px;
-            margin-top: 8px;
+            background: linear-gradient(135deg, rgba(139,92,246,0.12) 0%, rgba(6,182,212,0.08) 100%);
+            border: 1px solid rgba(139,92,246,0.22);
+            border-radius: 18px;
+            padding: 22px;
+            margin-top: 12px;
             text-align: center;
         }
 
-        .contact-card .emoji { font-size: 32px; margin-bottom: 10px; }
+        .contact-card .emoji { font-size: 34px; margin-bottom: 10px; }
 
         .contact-card h3 {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 600;
             color: var(--text);
             margin-bottom: 6px;
         }
 
         .contact-card p {
-            font-size: 12.5px;
+            font-size: 13px;
             color: var(--text-tertiary);
             margin: 0 !important;
         }
 
         .email-link {
             display: inline-block;
-            margin-top: 12px;
-            background: rgba(79,163,232,0.15);
-            border: 1px solid rgba(79,163,232,0.30);
+            margin-top: 14px;
+            background: rgba(139,92,246,0.15);
+            border: 1px solid rgba(139,92,246,0.35);
             border-radius: 20px;
-            padding: 8px 20px;
-            color: var(--accent-blue);
+            padding: 8px 22px;
+            color: var(--accent-purple);
             font-size: 13px;
-            font-weight: 500;
+            font-weight: 600;
             text-decoration: none;
+            transition: all 0.2s ease;
         }
 
-        /* ── Footer ──────────────────────────────────────────────────────── */
+        .email-link:hover {
+            background: rgba(139,92,246,0.25);
+            border-color: rgba(139,92,246,0.50);
+        }
+
         .footer {
             text-align: center;
-            padding: 28px 20px;
+            padding: 32px 20px;
             border-top: 1px solid var(--border);
             color: var(--text-tertiary);
-            font-size: 12px;
+            font-size: 12.5px;
         }
 
-        .footer span {
-            color: var(--accent-blue);
+        .footer a {
+            color: var(--accent-purple);
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
 
-<!-- ── Hero ──────────────────────────────────────────────────────────────── -->
+<!-- Hero -->
 <div class="hero">
-    <span class="hero-icon">🦔</span>
-    <h1>Privacy Policy</h1>
-    <p class="subtitle">Pangolin Browser by Cyclushub</p>
-    <div class="badge">🔒 Your privacy is our priority</div>
+    <span class="hero-icon">📖</span>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="subtitle">Lexora – Modern Offline Dictionary &amp; Vocabulary Builder</p>
+    <div class="badge">⚖️ Terms of Service &amp; Usage Agreement</div>
 </div>
 
 <div class="container">
 
     <!-- Last Updated -->
-<!--    <div class="last-updated">-->
-<!--        🗓️ &nbsp;<strong>Last updated:</strong>&nbsp; June 2025 &nbsp;·&nbsp; Version 1.0.0-->
-<!--    </div>-->
+    <div class="last-updated">
+        🗓️ &nbsp;<strong>Last updated:</strong>&nbsp; September 2026 &nbsp;·&nbsp; Version 1.0.0
+    </div>
 
-    <!-- ── 1. Introduction ─────────────────────────────────────────────────── -->
+    <!-- 1. Agreement to Terms -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-blue">👋</div>
-            <span class="section-title">Introduction</span>
+            <div class="section-icon icon-purple">📜</div>
+            <span class="section-title">1. Agreement to Terms</span>
         </div>
         <div class="section-body">
             <p>
-                Welcome to <strong>Pangolin Browser</strong>, developed by
-                <strong>Cyclushub</strong>. We built this browser with one goal:
-                to give you a fast, private, and secure browsing experience —
-                without selling your data or tracking your habits.
+                By downloading, installing, or using <strong>Lexora</strong> ("the App", "we", "us", or "our"), 
+                you agree to be bound by these Terms &amp; Conditions. If you do not agree to these terms, 
+                please do not use the application.
             </p>
             <p>
-                This Privacy Policy explains what information the app handles,
-                how it is used, and the controls you have over your data.
-                By using Pangolin Browser, you agree to this policy.
+                These terms govern your access to and use of all features, services, and content provided 
+                within the Lexora application.
             </p>
         </div>
     </div>
 
-    <!-- ── 2. Data We Do NOT Collect ──────────────────────────────────────── -->
+    <!-- 2. Description of Service -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-green">🛡️</div>
-            <span class="section-title">Data We Do NOT Collect</span>
+            <div class="section-icon icon-blue">📚</div>
+            <span class="section-title">2. Description of Service</span>
         </div>
         <div class="section-body">
             <p>
-                Pangolin Browser does <strong>not</strong> collect, transmit,
-                or share the following:
+                Lexora is a comprehensive English dictionary and vocabulary enhancement application designed 
+                to provide fast, reliable, and offline educational assistance. Features include:
             </p>
             <ul class="check-list">
                 <li>
-                    <span class="dot dot-red">✕</span>
-                    Your browsing history or visited URLs
+                    <span class="dot dot-purple">✓</span>
+                    <strong>100% Offline Dictionary:</strong> Instant access to definitions, pronunciations, phonetics, and examples.
                 </li>
                 <li>
-                    <span class="dot dot-red">✕</span>
-                    Search queries you enter in the address bar
+                    <span class="dot dot-purple">✓</span>
+                    <strong>Instant Floating Lookups ("Define with Lexora"):</strong> Optional floating overlay for quick definitions across apps.
                 </li>
                 <li>
-                    <span class="dot dot-red">✕</span>
-                    Passwords, form data, or login credentials
+                    <span class="dot dot-purple">✓</span>
+                    <strong>Vocabulary Tools:</strong> Flashcards, daily quizzes, streak trackers, and curated word categories.
                 </li>
                 <li>
-                    <span class="dot dot-red">✕</span>
-                    Cookies from the websites you visit
-                </li>
-                <li>
-                    <span class="dot dot-red">✕</span>
-                    Location data, camera, or microphone access
-                </li>
-                <li>
-                    <span class="dot dot-red">✕</span>
-                    Device identifiers or advertising IDs
-                </li>
-                <li>
-                    <span class="dot dot-red">✕</span>
-                    Personal information of any kind
+                    <span class="dot dot-purple">✓</span>
+                    <strong>Text-to-Speech:</strong> Audio pronunciations powered by on-device speech engines.
                 </li>
             </ul>
         </div>
     </div>
 
-    <!-- ── 3. Data Stored Locally ──────────────────────────────────────────── -->
+    <!-- 3. System Permissions & Optional Features -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-cyan">💾</div>
-            <span class="section-title">Data Stored Locally On Your Device</span>
+            <div class="section-icon icon-cyan">🔑</div>
+            <span class="section-title">3. Permissions &amp; Accessibility Notice</span>
         </div>
         <div class="section-body">
             <p>
-                The following data is stored <strong>only on your device</strong>
-                and is never sent to Cyclushub or any third party:
+                Certain features of Lexora require optional system permissions that you may grant or revoke at any time:
             </p>
             <ul class="check-list">
                 <li>
-                    <span class="dot dot-blue">✓</span>
-                    Browsing history (only if "Save History" is enabled in Settings)
+                    <span class="dot dot-green">✓</span>
+                    <strong>Display Over Other Apps (Overlay):</strong> Used solely to render the floating definition bubble and instant dictionary card on top of active screens without navigating away.
                 </li>
                 <li>
-                    <span class="dot dot-blue">✓</span>
-                    Bookmarks you save
+                    <span class="dot dot-green">✓</span>
+                    <strong>AccessibilityService API:</strong> When explicitly enabled by the user, this service detects text selection events across apps to trigger the quick "Define with Lexora" bubble. It operates completely offline, tracks no keystrokes, and records no personal information.
                 </li>
                 <li>
-                    <span class="dot dot-blue">✓</span>
-                    App preferences (theme, search engine, ad block toggle, etc.)
-                </li>
-                <li>
-                    <span class="dot dot-blue">✓</span>
-                    Web cache and cookies set by websites you visit
-                </li>
-                <li>
-                    <span class="dot dot-blue">✓</span>
-                    Files you download via the browser
+                    <span class="dot dot-green">✓</span>
+                    <strong>Notifications:</strong> Used solely to deliver optional daily vocabulary alerts and streak reminders if enabled in settings.
                 </li>
             </ul>
             <div class="highlight-box">
                 <p>
-                    💡 You can clear all locally stored data at any time from
-                    <strong>Settings → Clear Browsing History</strong>,
-                    <strong>Clear Cookies</strong>, or
-                    <strong>Clear Cache</strong>.
+                    🔒 <strong>Privacy Guarantee:</strong> Lexora does not collect, sell, or transmit any user data, search queries, selected text, or keystrokes. All dictionary lookups operate on-device.
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- ── 4. Incognito Mode ───────────────────────────────────────────────── -->
+    <!-- 4. Intellectual Property -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-purple">🕶️</div>
-            <span class="section-title">Incognito Mode</span>
+            <div class="section-icon icon-yellow">💡</div>
+            <span class="section-title">4. Intellectual Property</span>
         </div>
         <div class="section-body">
             <p>
-                When browsing in <strong>Incognito Mode</strong>, Pangolin
-                Browser applies additional protections:
+                The Lexora application, including its source code, user interface designs, logos, graphics, and 
+                frosted glass styling, is the intellectual property of the developers and protected by copyright 
+                and trademark laws.
+            </p>
+            <p>
+                Dictionary content and lexical data are sourced from open, educational linguistic datasets curated 
+                for general learning and reference.
+            </p>
+        </div>
+    </div>
+
+    <!-- 5. User Conduct & Acceptable Use -->
+    <div class="section">
+        <div class="section-header">
+            <div class="section-icon icon-green">🛡️</div>
+            <span class="section-title">5. Acceptable Use</span>
+        </div>
+        <div class="section-body">
+            <p>
+                You agree to use Lexora only for lawful, personal, and educational purposes. You agree not to:
             </p>
             <ul class="check-list">
                 <li>
-                    <span class="dot dot-green">✓</span>
-                    No history is saved for incognito sessions
+                    <span class="dot dot-purple">•</span>
+                    Reverse engineer, decompile, or attempt to extract the source code of the App.
                 </li>
                 <li>
-                    <span class="dot dot-green">✓</span>
-                    Cookies and site data are not persisted after the session
+                    <span class="dot dot-purple">•</span>
+                    Use the application in any manner that could interfere with, disrupt, or harm other users or devices.
                 </li>
                 <li>
-                    <span class="dot dot-green">✓</span>
-                    Web cache is disabled during incognito browsing
-                </li>
-                <li>
-                    <span class="dot dot-green">✓</span>
-                    Screenshots are blocked (secure flag applied)
-                </li>
-                <li>
-                    <span class="dot dot-green">✓</span>
-                    Biometric authentication required to access incognito tabs
+                    <span class="dot dot-purple">•</span>
+                    Redistribute, lease, or resell the application without prior authorization.
                 </li>
             </ul>
-            <p style="margin-top:12px;">
-                Note: Incognito mode does not make you anonymous to websites,
-                your ISP, or network administrators. It only prevents the app
-                from saving local data.
-            </p>
         </div>
     </div>
 
-    <!-- ── 5. Ad Blocking ─────────────────────────────────────────────────── -->
+    <!-- 6. Disclaimer of Warranties -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-red">🚫</div>
-            <span class="section-title">Ad Blocking</span>
+            <div class="section-icon icon-pink">⚠️</div>
+            <span class="section-title">6. Disclaimer &amp; Limitation of Liability</span>
         </div>
         <div class="section-body">
             <p>
-                When <strong>Ad Block</strong> is enabled in Settings, Pangolin
-                Browser intercepts and blocks network requests to known
-                advertising and tracking domains.
+                Lexora is provided on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis without warranties 
+                of any kind, either express or implied. While we strive for absolute linguistic accuracy, we do not warrant 
+                that dictionary definitions, pronunciations, or educational data are entirely error-free.
             </p>
             <p>
-                This blocking happens entirely <strong>on your device</strong>.
-                No list of blocked URLs is ever sent to Cyclushub or any
-                external server.
+                In no event shall the developers of Lexora be liable for any indirect, incidental, or consequential damages 
+                arising out of or related to your use of or inability to use the application.
             </p>
         </div>
     </div>
 
-    <!-- ── 6. Third-Party Websites ─────────────────────────────────────────── -->
+    <!-- 7. Updates & Modifications -->
     <div class="section">
         <div class="section-header">
-            <div class="section-icon icon-orange">🌐</div>
-            <span class="section-title">Third-Party Websites</span>
+            <div class="section-icon icon-blue">🔄</div>
+            <span class="section-title">7. Modifications to Terms</span>
         </div>
         <div class="section-body">
             <p>
-                Pangolin Browser is a web browser — it loads content from
-                third-party websites that have their own privacy policies.
-                We are not responsible for the privacy practices of websites
-                you visit.
+                We reserve the right to revise or replace these Terms &amp; Conditions at any time. When updates occur, 
+                the updated version will be posted at this URL and the "Last updated" date will be revised.
             </p>
             <p>
-                We encourage you to review the privacy policy of every website
-                you visit, especially before submitting personal information.
+                Your continued use of Lexora after any changes constitutes your binding acceptance of the new terms.
             </p>
         </div>
     </div>
 
-    <!-- ── 7. Permissions ─────────────────────────────────────────────────── -->
-    <div class="section">
-        <div class="section-header">
-            <div class="section-icon icon-yellow">🔑</div>
-            <span class="section-title">App Permissions</span>
-        </div>
-        <div class="section-body">
-            <div class="info-row">
-                <span class="info-label">🌐 Internet</span>
-                <span class="info-value">Required to load web pages</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">👆 Biometric</span>
-                <span class="info-value">Protect incognito tabs</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">📥 Storage / Downloads</span>
-                <span class="info-value">Save downloaded files</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">🔔 Notifications</span>
-                <span class="info-value">Download progress alerts</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label">📋 Clipboard</span>
-                <span class="info-value">Paste URLs into address bar</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- ── 8. Children's Privacy ───────────────────────────────────────────── -->
-    <div class="section">
-        <div class="section-header">
-            <div class="section-icon icon-green">👶</div>
-            <span class="section-title">Children's Privacy</span>
-        </div>
-        <div class="section-body">
-            <p>
-                Pangolin Browser is not directed at children under the age of
-                13. We do not knowingly collect personal information from
-                children. If you believe a child has provided personal
-                information through this app, please contact us immediately.
-            </p>
-        </div>
-    </div>
-
-    <!-- ── 9. Changes to This Policy ──────────────────────────────────────── -->
-    <div class="section">
-        <div class="section-header">
-            <div class="section-icon icon-blue">📝</div>
-            <span class="section-title">Changes to This Policy</span>
-        </div>
-        <div class="section-body">
-            <p>
-                We may update this Privacy Policy from time to time. When we do,
-                we will update the "Last updated" date at the top of this page.
-                Significant changes will be communicated through an in-app
-                notification.
-            </p>
-            <p>
-                Continued use of Pangolin Browser after changes are posted
-                constitutes your acceptance of the revised policy.
-            </p>
-        </div>
-    </div>
-
-    <!-- ── 10. Contact ─────────────────────────────────────────────────────── -->
+    <!-- 8. Contact Information -->
     <div class="section">
         <div class="section-header">
             <div class="section-icon icon-cyan">📬</div>
-            <span class="section-title">Contact Us</span>
+            <span class="section-title">8. Contact Us</span>
         </div>
         <div class="section-body">
             <div class="contact-card">
-                <div class="emoji">🦔</div>
-                <h3>Cyclushub</h3>
-                <p>Questions about this policy? We'd love to hear from you.</p>
-                <a class="email-link"
-                   href="mailto:cyclushub@gmail.com">
+                <div class="emoji">📖</div>
+                <h3>Lexora Support</h3>
+                <p>Have questions, suggestions, or feedback regarding these terms?</p>
+                <a class="email-link" href="mailto:cyclushub@gmail.com">
                     cyclushub@gmail.com
                 </a>
             </div>
@@ -593,9 +471,9 @@
 
 </div>
 
-<!-- ── Footer ──────────────────────────────────────────────────────────────── -->
+<!-- Footer -->
 <div class="footer">
-    © 2025 <span>Cyclushub</span> · Pangolin Browser · All rights reserved
+    © 2026 <strong>Lexora</strong> · All rights reserved · <a href="https://vishal007m.github.io/lexora_terms/">Terms &amp; Privacy</a>
 </div>
 
 </body>
